@@ -33,7 +33,9 @@ li{
 
 .container{
     margin-left:7px;
+    display: flex;
 }
+
 
 
 
@@ -46,26 +48,31 @@ nav{
     padding-bottom: 6px;}
 .nav a{
     margin-left:86px;
+    text-align: center;
 }
 .nav img{
     height: 140px;
-    margin-left: 19px;
+ 
 }
-
-
-
-main{
+.nav li{
     display: flex;
+    flex-direction: column;
+
 }
+
+
+
+
 .aside_left{
     background-color:#7D0909;
     padding-right: 60px;
     padding-top: 5px;
     height: 350px;
 }
-.aside_left div {
+.aside_left li {
     margin-bottom: 30px;
 }
+
 
 .aside_right{
     background-color:#E3DDDD;
@@ -83,7 +90,7 @@ main{
 
 
 
-footer{
+.footer{
     background-color: #E95B11;
     text-align: center;
     font-size: 20px;
