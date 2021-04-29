@@ -46,11 +46,18 @@ nav{
     padding-bottom: 6px;}
 .nav a{
     margin-left:86px;
+    text-align: center;
 }
 .nav img{
     height: 140px;
-    margin-left: 19px;
+ 
 }
+.nav li{
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 
 
