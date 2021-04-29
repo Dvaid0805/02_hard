@@ -26,6 +26,11 @@ li{
     padding: 3px;
 }
 */
+.module img{
+    padding-left: 460px;
+    width: 570px;
+}
+
 .container{
     margin-left:7px;
 }
